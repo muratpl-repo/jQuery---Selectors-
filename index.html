@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <div>Paragraf 1</div>
+    <div></div>
+    <h1 class="p2">Paragraf 2</h1>
+    <p id="p3">Paragraf 3</p>
+
+
+    <script>    
+    $("div:nth-child(1)").html("Paragraflarrrr");
+    $(".p2").html("<b>Paragraf 2</b>");
+    $("#p3").html("<i>Paragraf 3</i>");
+    $("div, .p2, #p3").html("Hepsi birden Kaan Academy");
+    
+    
+</script>
+</body>
+</html>
